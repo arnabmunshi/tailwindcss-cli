@@ -1119,21 +1119,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(125 211 252 / var(--tw-bg-opacity));
 }
 
-.bg-gradient-to-br {
-  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
-}
-
-.from-purple-100 {
-  --tw-gradient-from: #f3e8ff;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(243 232 255 / 0));
-}
-
-.via-cyan-100 {
-  --tw-gradient-stops: var(--tw-gradient-from), #cffafe, var(--tw-gradient-to, rgb(207 250 254 / 0));
-}
-
-.to-pink-100 {
-  --tw-gradient-to: #fce7f3;
+.bg-clifford {
+  --tw-bg-opacity: 1;
+  background-color: rgb(218 55 61 / var(--tw-bg-opacity));
 }
 
 .p-12 {
@@ -1153,6 +1141,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-clifford {
+  --tw-text-opacity: 1;
+  color: rgb(218 55 61 / var(--tw-text-opacity));
 }
 
 .shadow-md {

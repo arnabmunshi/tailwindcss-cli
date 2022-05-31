@@ -99,3 +99,19 @@
   ```html
   <div class="w-full h-screen p-12 bg-primary">
   ```
+
+## Add custom class on `tailwind.config.js`
+- add the code snippet on `tailwind.config.js`
+  ```js
+  theme: {
+    extend: {
+      colors: {
+        clifford: '#da373d',
+      }
+    }
+  },
+  ```
+- now add the custom color `clifford` on `layouts\index.html`
+  ```html
+  <h1 class="text-clifford">Get started with Tailwind CSS</h1>
+  ```

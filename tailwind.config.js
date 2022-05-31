@@ -3,7 +3,11 @@ module.exports = {
     './layouts/*.html'
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        clifford: '#da373d',
+      }
+    }
   },
   plugins: [
     require('@tailwindcss/typography'),
