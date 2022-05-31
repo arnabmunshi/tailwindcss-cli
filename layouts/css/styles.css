@@ -1086,6 +1086,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0;
 }
 
+.bg-primary {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  --tw-gradient-from: #f3e8ff;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(243 232 255 / 0));
+  --tw-gradient-stops: var(--tw-gradient-from), #cffafe, var(--tw-gradient-to, rgb(207 250 254 / 0));
+  --tw-gradient-to: #fce7f3;
+}
+
 .static {
   position: static;
 }

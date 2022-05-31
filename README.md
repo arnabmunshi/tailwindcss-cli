@@ -82,3 +82,20 @@
   ```
 - add some class into `layouts\index.html` like: `prose prose-lg`
 - now run `npm run dev` and see the changes
+
+## Now add custom css
+- add the code snippet on `tailwind.css`
+  ```css
+  @layer components {
+    .bg-primary {
+      @apply bg-gradient-to-br
+      from-purple-100
+      to-pink-100
+      via-cyan-50;
+    }
+  }
+  ```
+- add the custom class `bg-primary` on `layouts\index.html`
+  ```html
+  <div class="w-full h-screen p-12 bg-primary">
+  ```
