@@ -81,6 +81,9 @@
   ],
   ```
 - add some class into `layouts\index.html` like: `prose prose-lg`
+  ```html
+  <div class="prose prose-lg">
+  ```
 - now run `npm run dev` and see the changes
 
 ## Now add custom css
@@ -119,3 +122,6 @@
 ## Using arbitrary values
 - add twitter color on twitter button `bg-[#1DA1F2]`
 - add shadhow on twitter button `shadow-[#1DA1F2]/40`
+
+## Reference
+- https://www.youtube.com/watch?v=h9Zun41-Ozc&t=1177s
