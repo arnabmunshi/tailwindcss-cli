@@ -1,6 +1,6 @@
-# Tailwind CSS CLI Setup
+# Tailwind CSS CLI Setup (v3.0.24)
 
-## Setups
+## Steps
 - create a project folder like: `tailwindcss-cli` or whatever you wish
 - cd into it `cd tailwindcss-cli`
 - execute the command `npm init -y`
@@ -51,7 +51,7 @@
   ],
   ```
 - create a input css file called `tailwind.css` or whatever you wish
-- pase the line of code into it
+- paste the line of code into it
   ```css
   @tailwind base;
   @tailwind components;
@@ -72,3 +72,13 @@
 - now open the `layouts\index.html` on live server
 - now run `npm run dev` and see the changes
 
+## Now add typography
+- run the command `npm i @tailwindcss/typography`
+- add the line of code into `tailwind.config.js`
+  ```js
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
+  ```
+- add some class into `layouts\index.html` like: `prose prose-lg`
+- now run `npm run dev` and see the changes
