@@ -115,3 +115,7 @@
   ```html
   <h1 class="text-clifford">Get started with Tailwind CSS</h1>
   ```
+
+## Using arbitrary values
+- add twitter color on twitter button `bg-[#1DA1F2]`
+- add shadhow on twitter button `shadow-[#1DA1F2]/40`

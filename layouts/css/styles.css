@@ -1119,9 +1119,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(125 211 252 / var(--tw-bg-opacity));
 }
 
-.bg-clifford {
+.bg-\[\#1DA1F2\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(218 55 61 / var(--tw-bg-opacity));
+  background-color: rgb(29 161 242 / var(--tw-bg-opacity));
 }
 
 .p-12 {
@@ -1138,14 +1138,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.75rem;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-clifford {
   --tw-text-opacity: 1;
   color: rgb(218 55 61 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .shadow-md {
@@ -1154,7 +1154,57 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-\[\#1DA1F2\] {
+  --tw-shadow-color: #1DA1F2;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-\[\#1DA1F2\]\/40 {
+  --tw-shadow-color: rgb(29 161 242 / 0.4);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-\[\#1DA1F2\]\/100 {
+  --tw-shadow-color: rgb(29 161 242 / 1);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-\[\#1DA1F2\]\/50 {
+  --tw-shadow-color: rgb(29 161 242 / 0.5);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 .hover\:bg-sky-400:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(56 189 248 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#1DA1F2\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 161 242 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-sky-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 132 199 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-sky-900:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(12 74 110 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-sky-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 242 254 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-sky-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 105 161 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-sky-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(14 165 233 / var(--tw-bg-opacity));
 }
